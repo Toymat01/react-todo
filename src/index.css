@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+*{
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: "Quicksand"; */
+}
+body{
+    
+    background-color: #898989;
+    color:#41045a;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 50px 10px;
+    background-color: #4d024d;
+    
+}
+.navbar h2{
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: #ddd4d4;
+}
+.navbar a{
+    margin: 0 10px;
+    color: #ddd4d4;
+    text-decoration: none;
+    border: #f7cbf7 2px solid;
+    padding: 7px;
+    border-radius: 20px;
+
+}  
+    .navbar a:hover{
+        background-color: #db49d8;
+        color: #4d024d;
+    }
+.forms{
+    padding: 30px;
+   display: flex;
+   justify-content: center;   
+}
+.forms input{
+    padding: 5px 50px;
+    border: none;
+    background-color: #fffcfc;
+    outline: none;
+    border-radius:10px ;
+    color: #41045a;
+
+}
+.forms button{
+    padding: 3px 7px ;
+    border-radius: 20px;
+    border: #3f0257 solid 2px;
+    background-color: #41045a;
+    color: #ddd4d4;
+
+}
+.forms button:hover{
+    background-color: #740372;
+    cursor: pointer;
+}
+
+
+.todos{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    color: #4d024d;
+    font-size: 20px;
+    background-color: #cecbcb;
+    margin: 5px 50px;
+    border-radius: 10px;
+   
+}
+    .todos button{
+        padding: 5px;
+        background-color: #3f0257;
+        color: #d5d0d0;
+        border: #350135 solid 1px;
+        border-radius: 10px;
+    }
+            .todos button:hover{
+                cursor: pointer;
+
+            }
+.no-todo{
+    padding: 30px;
+    text-align: center;
+}
+@media(max-width:400px){
+    .forms button{
+        text-align: center;
+        padding: 5px;
+        
+    }
+    .forms input{
+        padding: 10px 30px;
+        
+    }
+}
+
